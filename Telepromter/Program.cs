@@ -17,6 +17,11 @@ namespace Telepromter
                 if (!string.IsNullOrWhiteSpace(line))
                 {
                     var pause = Task.Delay(timing);
+
+
+
+
+
                     pause.Wait();
                 }
             }
